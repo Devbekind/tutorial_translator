@@ -11,12 +11,18 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => changeLanguage("en")}>EN</button>
+      <button onClick={() => changeLanguage("en")}><img id="photo" src="./img/eng.png"/></button>
       <button onClick={() => changeLanguage("ru")}>RU</button>
+      <button onClick={() => changeLanguage("ua")}>UA</button>
       <hr />
       <div><h1>{t("title")}</h1></div>
       <div>{t("description.part1")}</div>
+      
       <div>{t("description.part2")}</div>
+      <div>{t("description.part3")}</div>
+       
+
+
     </div>
   );
 }
