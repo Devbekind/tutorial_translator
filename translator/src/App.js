@@ -3,10 +3,12 @@ import "./App.css";
 import { useTranslation } from "react-i18next";
 import Demo from './demo';
 import { Switch } from "antd";
+ 
+ 
 
 function App() {
   const { t, i18n } = useTranslation();
-
+  let switchMode = document.getElementById("switchMode");
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
@@ -28,7 +30,7 @@ function App() {
         <div  > 
           <table> <tr><td>night theme</td> </tr>
          <tr> <td>  
-        <Switch className="switch"/></td></tr>
+        <Switch id="switchMode" className="switch"/></td></tr>
         </table>
         </div>
         </td><td><div className="title"><h1>{t("title")}</h1></div></td>
