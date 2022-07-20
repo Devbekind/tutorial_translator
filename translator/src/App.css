@@ -37,6 +37,118 @@
   }
 }
 #photo{
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
+
+.title{
+  display: flex;
+  position: relative;
+  background-color: blue;
+  width: 660px; 
+  border: 2px solid black;
+   
+}
+.logo{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  display: flex; 
+  border: 2px solid black;
+   
+}
+.buttons{
+  display: flex;
+  position: relative;
+  background-color: blue;
+  margin: auto;
+  padding: 2px;
+   left: 986px;
+    
+  border: 2px solid black;
+   
+}
+.buttonen{
+  position: relative;
+    
+}
+.buttondk{
+  position: relative;
+    
+}
+.buttonua{
+  position: relative;
+   
+}
+.descriptionpart1{
+  display: flex;
+  position: relative;
+  left: 130px;
+}
+.descriptionpart2{
+  display: flex;
+  position: relative;
+  left: 140px;
+}
+.descriptionpart3{
+  display: flex;
+  position: relative;
+  left: 150px;
+}
+.demo{
+  padding: 10px 0px;
+}
+.light{
+  background-color: blueviolet;
+}
+.textmenu{
+  background-color: blue;
+  display: flex;
+  bottom: -350px;
+   
+  border: 2px solid black;
+}
+.footer{
+  position: relative;
+  display: flex;
+  background-color: #282c34;
+  color: wheat;
+  width: 1920px;
+  height: 60px; 
+  top: 7px;
+   
+  border: 2px solid rgb(179, 11, 11);
+}
+.content{
+   
+  border: 2px solid black;
+  margin-left: 10px;
+  display: flex;
+  width: 1500px;
+  height: 700px;
+  background-color: #61dafb;
+}
+.Header_novis{
+  visibility: 50%;
+  border: 3px thin #282c34;
+}
+.demo {
+  margin: 16px;
+}
+.demo-nav {
+  height: 30px;
+  margin-bottom: 16px;
+  line-height: 30px;
+  background: #f8f8f8;
+}
+.demo-nav a {
+  padding: 0 8px;
+  line-height: 30px;
+}
+.app-list {
+  margin-top: 16px;
+}
+  [data-theme="dark"] .demo-nav {
+    background: #141414;
+  }
