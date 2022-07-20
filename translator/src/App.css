@@ -45,7 +45,7 @@
   display: flex;
   position: relative;
   background-color: blue;
-  width: 660px; 
+  width: 586px; 
   border: 2px solid black;
    
 }
@@ -62,8 +62,8 @@
   display: flex;
   position: relative;
   background-color: blue;
-  margin: auto;
-  padding: 2px;
+   
+   
    left: 986px;
     
   border: 2px solid black;
@@ -96,17 +96,17 @@
   position: relative;
   left: 150px;
 }
-.demo{
-  padding: 10px 0px;
-}
+ 
 .light{
   background-color: blueviolet;
 }
 .textmenu{
-  background-color: blue;
-  display: flex;
-  bottom: -350px;
-   
+  background-color: rgb(160, 15, 83);
+  display: block;
+  position: relative;
+   top: -255px;
+   height: 155px;
+   width: 155px;
   border: 2px solid black;
 }
 .footer{
@@ -114,9 +114,9 @@
   display: flex;
   background-color: #282c34;
   color: wheat;
-  width: 1920px;
+  width: 1903px;
   height: 60px; 
-  top: 7px;
+  top: 45px;
    
   border: 2px solid rgb(179, 11, 11);
 }
@@ -130,11 +130,16 @@
   background-color: #61dafb;
 }
 .Header_novis{
-  visibility: 50%;
+  
+  position: sticky;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.151);
   border: 3px thin #282c34;
 }
 .demo {
-  margin: 16px;
+  width: 1903px;
+  display: block;
+  /* background-color: red; */
 }
 .demo-nav {
   height: 30px;
@@ -152,3 +157,29 @@
   [data-theme="dark"] .demo-nav {
     background: #141414;
   }
+
+#homelink{
+  color: #000;
+  position: relative;
+  left: -444px;
+}
+#AppListlink{
+  color: #000;
+  position: relative;
+  left: 444px;
+}
+ .s{
+  background-color: red;
+  position: relative;
+  left: 666px;
+  padding: 3px;
+ }
+ h1 {
+  font-size:x-large;
+ }
+ .switch{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+ }

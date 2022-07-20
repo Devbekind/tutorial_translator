@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import { useTranslation } from "react-i18next";
 import Demo from './demo';
+import { Switch } from "antd";
+
 function App() {
   const { t, i18n } = useTranslation();
 
@@ -22,6 +24,13 @@ function App() {
         <img src=""/>
         
         </div>
+        </td><td> 
+        <div  > 
+          <table> <tr><td>night theme</td> </tr>
+         <tr> <td>  
+        <Switch className="switch"/></td></tr>
+        </table>
+        </div>
         </td><td><div className="title"><h1>{t("title")}</h1></div></td>
         <td> 
         <div className="buttons">
@@ -35,15 +44,15 @@ function App() {
       </div>  
       <div className='demo'>
         <table>
-            <tc>
+            <tr>
               <td>
-          <Demo> <div className="content">content</div>content</Demo>
+              <Demo>  </Demo>
               </td>
-            </tc>
+            </tr>
             <tc>
               <td>
                <div   >  
-               <div className="descriptionpart1">{t("description.part1")}</div>
+                
                </div>
               </td>
             </tc>
