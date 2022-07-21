@@ -23,7 +23,7 @@ function App() {
         <tr>
         <td> 
         <div className="logo"> 
-        <img src=""/>
+        <img src="./img/Azovstal_logo.png"/>
         
         </div>
         </td><td> 
@@ -51,25 +51,25 @@ function App() {
               <Demo>  </Demo>
               </td>
             </tr>
-            <tc>
+            {/* <tc>
               <td>
                <div   >  
                 
                </div>
               </td>
-            </tc>
+            </tc> */}
         
          </table>
-          </div>
+      </div>
        
-      <div className="textmenu"> 
+      {/* <div className="textmenu"> 
        
        
       
        
-      {/* <div className="descriptionpart3">{t("description.part3")}</div> */}
+      <div className="descriptionpart3">{t("description.part3")}</div>
        
-      </div>
+      </div> */}
 
       <div className="footer">
       <div className="descriptionpart2">{t("description.part2")}</div>

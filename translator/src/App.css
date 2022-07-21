@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -44,29 +45,29 @@
 .title{
   display: flex;
   position: relative;
-  background-color: blue;
-  width: 586px; 
-  border: 2px solid black;
+    
+  width: 669px; 
    
+    
 }
 .logo{
   position: relative;
   height: 60px;
   width: 60px;
-  background-color: red;
+   
   display: flex; 
-  border: 2px solid black;
+  
    
 }
 .buttons{
   display: flex;
   position: relative;
-  background-color: blue;
+  
    
    
-   left: 986px;
+   left: 886px;
     
-  border: 2px solid black;
+   
    
 }
 .buttonen{
@@ -89,7 +90,8 @@
 .descriptionpart2{
   display: flex;
   position: relative;
-  left: 140px;
+  left: 450px;
+  text-indent: 65px;  
 }
 .descriptionpart3{
   display: flex;
@@ -101,10 +103,10 @@
   background-color: blueviolet;
 }
 .textmenu{
-  background-color: rgb(160, 15, 83);
+ 
   display: block;
   position: relative;
-   top: -255px;
+    
    height: 155px;
    width: 155px;
   border: 2px solid black;
@@ -112,28 +114,28 @@
 .footer{
   position: relative;
   display: flex;
-  background-color: #282c34;
+  background-color: #000000;
   color: wheat;
   width: 1903px;
   height: 60px; 
   top: 45px;
-   
-  border: 2px solid rgb(179, 11, 11);
+  box-shadow: 1px -3px 2px rgb(102, 101, 101);
+  
 }
 .content{
    
-  border: 2px solid black;
-  margin-left: 10px;
+   
+  margin-left: 75px;
   display: flex;
-  width: 1500px;
-  height: 700px;
-  background-color: #61dafb;
+  width: 1770px;
+  height: 1100px;
+  background-color: #96989985;
 }
 .Header_novis{
-  
+  box-shadow: 2px 2px 2px rgb(124, 122, 122);
   position: sticky;
   top: 0px;
-  background-color: rgba(0, 0, 0, 0.151);
+  background-color: rgba(255, 253, 253, 0.39);
   border: 3px thin #282c34;
 }
 .demo {
@@ -176,6 +178,8 @@
  }
  h1 {
   font-size:x-large;
+  text-indent: 65px;
+   
  }
  .switch{
   position: relative;
